@@ -49,7 +49,7 @@ const ValentineCard = () => {
             <div className=" mt-5 flex items-center justify-center gap-7 flex-wrap font-semibold text-white">
               <div>
                 <button
-                  className={`px-[10px] bg-green-500 rounded`}
+                  className={`px-[10px] bg-green-500 rounded hover:bg-green-600 focus:bg-green-600`}
                   style={{
                     fontSize: numClicks * 1.2 + "rem",
                   }}
@@ -60,7 +60,7 @@ const ValentineCard = () => {
               </div>
               <div>
                 <button
-                  className=" px-[10px] bg-red-500 rounded text-[1.2rem]"
+                  className=" px-[10px] bg-red-500 rounded text-[1.2rem] hover:bg-red-600 focus:bg-red-600"
                   onClick={incrementClick}>
                   {Messages[numClicks-1]}
                 </button>
