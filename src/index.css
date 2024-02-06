@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .loader {
+        width: 100px;
+        aspect-ratio: 1;
+      }
+      
+      .pizza_img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 0 0;
+        animation: load 2s infinite steps(10), rotate 4s infinite linear;
+      }
+      
+      @keyframes load {
+        to { object-position: 100% 0; }
+      }
+      
+      @keyframes rotate {
+        to { rotate: -360deg; }
+      }
+}
