@@ -23,8 +23,11 @@ const Gifs = ({Clicks}:PropType) => {
             "https://64.media.tumblr.com/960515c55083912f5bcaef8493d5dc79/tumblr_mgc21rbVEZ1qlmd4co1_500.gifv",
             "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHM3ZDdob3NxeTZhc3VyeTRncHJkaTdtMXRlN2QwMjF5Z3QyZ2h4bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jnQYWZ0T4mkhCmkzcn/giphy.gif",
             "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDl2anpwa3N0ZjUwamw2MmJ4ODk3amNwbG0xdTdtYWo1NGcwdzQ4NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l1AsyjZ8XLd1V7pUk/giphy.gif",
+            "https://media.tenor.com/gNmnDtjoccIAAAAM/side-eye-dog.gif",
             "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmpqYTVueHc2dG9iYjc1cjR4Z2MyaWFkbXZwM3cyOGJsNmp4a3JydCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mtpgD4KBHMgmchNlfm/giphy.gif",
-            "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHdnMTFiajU3dmZpeDUxbmc5bWI0ODA2ZTF1dWswbDBhdm93Zjl3NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zt1q7lREccTi4n9ohB/giphy.gif"
+            "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHdnMTFiajU3dmZpeDUxbmc5bWI0ODA2ZTF1dWswbDBhdm93Zjl3NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zt1q7lREccTi4n9ohB/giphy.gif",
+            "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDl2anpwa3N0ZjUwamw2MmJ4ODk3amNwbG0xdTdtYWo1NGcwdzQ4NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l1AsyjZ8XLd1V7pUk/giphy.gif",
+            "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHM3ZDdob3NxeTZhc3VyeTRncHJkaTdtMXRlN2QwMjF5Z3QyZ2h4bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jnQYWZ0T4mkhCmkzcn/giphy.gif"
         ]
 
         const promises = urls.map(url => {

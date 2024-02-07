@@ -10,25 +10,27 @@ const ValentineCard = () => {
   };
 
   const incrementClick = () => {
-    numClicks !== 15 && setnumClicks((prev) => prev + 1);
+    numClicks !== 17 && setnumClicks((prev) => prev + 1);
   };
 
   const Messages = [
     "No",
-    "Are you sure?",
+    "You sure?",
     "Really sure?",
     "Sure na dyud?",
     "Final na?",
+    "Baby please",
     "Huna-hunaa sa😔",
-    "Yes na yan!!!",
-    "Di dyud?🤧",
     "Dili dyud?😭",
-    "Sad na oks😭",
-    "Dili na dyud?",
-    "Final answer na dyud?😭",
-    "Last chance!",
-    "You're breaking my heart na :'(",
-    "You're breaking my heart na :'("
+    "If you say no, I'll be very sad",
+    "I'll be very very sad",
+    "I'll be very very very sad",
+    "I'll be very very very very sad",
+    "I'll be very very very very very sad😭",
+    "Ok sige, di nako mo ask",
+    "JOKE RA, PLEASE SAY YES😭",
+    "I'll be very very very very very very sad😭",
+    "BABEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE😭"
   ]
 
 
@@ -51,7 +53,7 @@ const ValentineCard = () => {
                 <button
                   className={`px-[10px] bg-green-500 rounded hover:bg-green-600 focus:bg-green-600`}
                   style={{
-                    fontSize: numClicks * 1.2 + "rem",
+                    fontSize: numClicks * 1.1 + "rem",
                   }}
                   onClick={handleClickNo}
                   >
@@ -60,7 +62,7 @@ const ValentineCard = () => {
               </div>
               <div>
                 <button
-                  className=" px-[10px] bg-red-500 rounded text-[1.2rem] hover:bg-red-600 focus:bg-red-600"
+                  className=" px-[10px] bg-red-500 rounded text-[1.1rem] hover:bg-red-600 focus:bg-red-600"
                   onClick={incrementClick}>
                   {Messages[numClicks-1]}
                 </button>
