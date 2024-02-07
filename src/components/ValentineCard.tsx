@@ -6,7 +6,7 @@ const ValentineCard = () => {
   const [numClicks, setnumClicks] = useState(1);
 
   const handleClickNo = () => {
-    numClicks > 1 && setClickedNo(true);
+    setClickedNo(true);
   };
 
   const incrementClick = () => {
